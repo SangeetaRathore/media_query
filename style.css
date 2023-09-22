@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #06081b;
+}
+.icons{
+    width: 13px;
+    height: 13px;
+}
+.iconses{
+    margin:10px ;
+}
+.underline{
+    border: 2px solid blue;
+    height: 1px;
+    border-radius: 6px;
+}
+.one{
+    width: 48px;
+}
+.two{
+    width: 70px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+.waving-hand{
+    width: 15px;
+    height: 15px;
+}
+.pcimage{
+    width: 184px;
+    height: 184px;
+}
+p{
+    font-size: 11px;
+}
+ h6, h4, h5 , p{
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+ ul {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+ }
+ li{
+    font-size:  10px;;
+    color: #fff;
+ }
+ li:hover{
+    background-color: blue;
+    border-radius: 30px;
+ }
+ .dev{
+    color: #aa6b14;
+    font-size: 14px;
+    font-weight: 900;
+ }
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+.a_dev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 7px;
+}
+  .first_line{
+    display: flex;
+    align-items: center;
+ } 
+  .projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+ }  
+ .content{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    column-gap: 15px;  
+ }
+ .projects{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .menu_mage{
+    display: none;
+}
+
+ @media  screen and (max-width:768px)
+ {
+    .first_line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .pcimage{
+        width: 1000px;
+        height: 1000px;
+    }
+    .dev{
+        color: #aa6b14;
+        font-size: 22px;
+        font-weight: 900;
+     }
+     .one{
+        width: 80px;
+    }
+    .two{
+        width: 118px;
+    }
+    .image{
+        width: 343px;
+        height: 343px;
+    }
+    .waving-hand{
+        width: 60px;
+        height: 60px;
+    }
+    .pcimage{
+        width: 530px;
+        height: 530px;
+    }
+    p{
+        font-size: 11px;
+    }
+    .icons{
+        width: 35px;
+        height: 35px;
+    }
+    .iconses{
+        margin:10px ;
+    }
+    h6,h5 , p{
+        font-size: 23px;
+    }
+
+    /* humberger menu */
+    nav ul{
+        display: none;
+    }
+    .menu_mage{
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+ }
